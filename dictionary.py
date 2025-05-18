@@ -38,7 +38,8 @@ user = {
 
 # 将用户字典放入一个列表中
 user_list = [user]
-print(user_list)  # 输出: [{'name': '张三', 'age': 20, 'gender': '男', 'city': '北京', 'email': 'zhangsan@163.com', 'phone': '13800138000'}]
+# 输出: [{'name': '张三', 'age': 20, 'gender': '男', 'city': '北京', 'email': 'zhangsan@163.com', 'phone': '13800138000'}]
+print(user_list)
 
 # 示例：字典方法的使用
 print("\n字典方法示例:")
