@@ -1,16 +1,16 @@
-# and
-# or
-# not
-# ==
-# !=
-# >
-# <
-# >=
-# <=
-# is
-# is not
-# in
-# not in
+# and 与
+# or 或
+# not 非
+# == 等于
+# != 不等于
+# > 大于
+# < 小于
+# >= 大于等于
+# <= 小于等于
+# is 是
+# is not 不是
+# in 在
+# not in 不在
 
 mood_index = int(input("对象今晚心情指数："))
 
