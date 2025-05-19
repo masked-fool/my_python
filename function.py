@@ -152,3 +152,22 @@ def count_up_to(max):
 
 for number in count_up_to(5):
     print(number)  # 输出: 1 2 3 4 5
+
+
+def get_BMI(weight, height):
+    # weight 单位: kg
+    # height 单位: m
+    return weight / (height * height)
+
+
+def weight_category(BMI):
+    if BMI < 18.5:
+        return "体重过轻"
+    elif BMI < 24.9:
+        return "正常"
+    else:
+        return "体重过重"
+
+
+print(get_BMI(60, 1.69))
+print(weight_category(get_BMI(60, 1.69)))
